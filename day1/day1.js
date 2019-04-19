@@ -55,3 +55,24 @@
 // alert( Boolean(0) ); // false
 // alert( Boolean("hello") ); // true
 // alert( Boolean("") ); // false
+
+//operations
+// let a='a', b=15, c=10;
+// console.log(b+c+a);
+// let a='a', b=15, c=10;
+// console.log(b+a+c);
+
+// let x = 0;
+// alert( ++x );
+
+// Remainder %
+// alert( 5 % 2 ); // 1 is a remainder of 5 divided by 2
+
+// Increment/decrement
+// let counter = 0;
+// let a = ++counter;
+// let c = counter++;
+// let b = counter;
+// alert(b);
+
+
