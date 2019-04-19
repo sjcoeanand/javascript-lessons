@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Javascript</title>
+    <link href="../main/main.css" rel="stylesheet">
+    <script src="day2.js"></script>
+</head>
+<body>
+	<div class="main-page">	
+		<div class="heading">
+            <h1>Day 2</h1>
+            <a href="../main/topic-index.html">BACK TO MAIN INDEX</a>
+        </div>
+        <div class="info-block">
+            <p>Please comment out topic from "day1.js" and check your console for example</p>
+            <h2>topis included</h2>
+            <ul>
+                <li>Hoisting
+                    <p>Basicallly, when Javascript compiles all of your code, all variable declarations using var are hoisted/lifted to the top of their functional/local scope (if declared inside a function) or to the top of their global scope (if declared outside of a function) regardless of where the actual declaration has been made. This is what we mean by “hoisting”.</p>
+                    <p>Example : 
+                            
+                            <br><br>( What we actually write )
+                            <br><br>console.log(myProfile) ;
+                        <br>var myProfile = "front end developer" ;
+                        <br><br>( How compiler compiles above code )
+                        <br><br>var myProfile ;
+                        <br>console.log(myProfile) ;
+                        <br> myProfile = "front end developer" ;
+                        <br><br>
+                        Here // for var console throws error "undefined"  
+                        <br>
+                        and <br>
+                        Here // for let or const console throws error "Reference Error : myProfile is not defined"  
+
+                    </p>
+                    <p>This above scenario also valid for functions</p>
+                </li>
+            </ul>
+        </div>
+	</div>
+</body>
+</html>
